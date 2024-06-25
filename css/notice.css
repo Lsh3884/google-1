@@ -16,6 +16,7 @@ ul{
 }
 
 .main ul {
+  
   position: absolute;
   top: 20px;
   left: 50%;
@@ -24,4 +25,17 @@ ul{
 }
 .main ul li{
     line-height: 40px;
+}
+
+.main span a{
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 8px;
+  left: 70%;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+
+
 }

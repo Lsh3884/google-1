@@ -16,26 +16,29 @@
   <body>
     <div class="main">
       <p>회원가입</p>
-      <ul>
-        <li>
-          <label class="name"><i class="fa-solid fa-user"></i></label>
-          <input type="text" placeholder="이름" />
-        </li>
-        <li>
-          <label class="email"><i class="fa-solid fa-envelope"></i></label>
-          <input type="text" placeholder="이메일" />
-        </li>
-        <li>
-          <label class="pwd-1"><i class="fa-solid fa-lock"></i></label>
-          <input type="text" placeholder="비밀번호" />
-        </li>
-        <li>
-          <label class="pwd-2"><i class="fa-solid fa-lock"></i></label>
-          <input type="text" placeholder="비밀번호 확인" />
-        </li>
-      </ul>
-      <button class="login"><a href="#">가입하기</a></button> <br />
-      <button class="notice"><a href="notice.html">공지 창 열기</a></button>
+      <form>
+        <ul>
+          <li>
+            <label class="name"><i class="fa-solid fa-user"></i></label>
+            <input type="text" placeholder="이름" />
+          </li>
+          <li>
+            <label class="email"><i class="fa-solid fa-envelope"></i></label>
+            <input type="text" placeholder="이메일" />
+          </li>
+          <li>
+            <label class="pwd-1"><i class="fa-solid fa-lock"></i></label>
+            <input type="text" placeholder="비밀번호" />
+          </li>
+          <li>
+            <label class="pwd-2"><i class="fa-solid fa-lock"></i></label>
+            <input type="text" placeholder="비밀번호 확인" />
+          </li>
+        </ul>
+        <button class="login" onclick="alert('로그인 완료 되었습니다. 메인 페이지로 이동하시겠습니까?')"><a href="#">가입하기</a></button> <br />
+        <button class="notice"><a href="notice.html">공지 창 열기</a></button>
+      </form>
+      
     </div>
   </body>
 </html>
